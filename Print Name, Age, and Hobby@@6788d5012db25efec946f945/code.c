@@ -14,6 +14,5 @@ scanf("%s",&c);
 printf("Name: %s",a);
 printf("Age: %d",b);
 printf("Hobby: %s",c);
-
-return o;
+return 0;
 }
