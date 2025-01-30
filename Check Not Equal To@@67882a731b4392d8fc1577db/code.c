@@ -10,5 +10,5 @@ int main(){
     else{
         print("False",a,b);
     }
-    
+    return 0;
 }
