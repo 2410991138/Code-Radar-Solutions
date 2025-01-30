@@ -6,9 +6,9 @@ int main(){
     int b;
     scanf("%d",&b);
     if(a!=b){
-        print("True",a,b);}
+        printf("True",a,b);}
     else{
-        print("False",a,b);
+        printf("False",a,b);
     }
     return 0;
 }
