@@ -4,10 +4,10 @@ int main(){
     int a;
     scanf("%d",&a);
     if(a % 5 == 0 && a % 11 == 0){
-        printf("Divisible: %d",a);
+        printf("Divisible");
     }
     else{
-        printf("Not Divisible: %d",a);
+        printf("Not Divisible");
     }
     return 0;
 }
