@@ -6,6 +6,6 @@ int main(){
     int b;
     scanf("%d",&b);
     int c = a|b;
-    printf("%d",c)
+    printf("%d",c);
     return 0;
 }
