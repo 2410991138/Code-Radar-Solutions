@@ -10,7 +10,7 @@ int main(){
         printf("Good");
     }
     else if(ch == 'C'){
-        printf("Averge");
+        printf("Average");
     }
     else if(ch == 'D'){
         printf("Below Average");
