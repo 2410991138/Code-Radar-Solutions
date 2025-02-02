@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int a , b ;
-scanf("%d", &a, &b);
+int a ;
+scanf("%d", &a);
+int b;
+scanf("%d",&b);
 int c = a+b;
 printf("%d",c);
 int c = a-b;
