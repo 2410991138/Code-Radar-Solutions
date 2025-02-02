@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+int main(){
 int a ;
 scanf("%d", &a);
 int b;
@@ -13,3 +13,4 @@ printf("%d",e);
 int f = a/b;
 printf("%d",f);
 return 0;
+}
