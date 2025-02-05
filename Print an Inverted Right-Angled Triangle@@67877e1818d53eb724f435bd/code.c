@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    for(i=5;i;i--){
-        printf("*",i);
+    for(i = 1 ; i<=5 ; i++){
+        for(j = 5 ; j >= i ; j--){
+            printf("*");
+
+        }
     }
     return 0;
 }
