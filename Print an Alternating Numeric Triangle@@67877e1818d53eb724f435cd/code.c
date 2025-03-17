@@ -4,10 +4,10 @@ int main(){
     scanf("%d",&n);
     int k;
     for(int i=1;i<=n;i++){
-            k = i;
-        for(int j=1;j<=i;j++){
-        printf("%d ",(k%2));
-        k++;
+        k = i;
+        for(int j=i;j>=0;j--)
+            printf("%d ",(j%2));
+            k++;
         }
         printf("\n");
     }
