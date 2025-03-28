@@ -11,7 +11,7 @@ int main(){
         if(arr[N]%2==0)
         even++;
         else
-        odd++
+        odd++;
     }
     printf("%d %d",even odd);
     return 0;
