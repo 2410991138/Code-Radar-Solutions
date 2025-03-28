@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<N;i++){
         printf("%d",arr[N]);
     }
-    odd = 0; , even = 0;
+    int odd = 0; , even = 0;
     for(int i=0;i<N;i++){
         if(arr[N]%2==0)
         even++;
