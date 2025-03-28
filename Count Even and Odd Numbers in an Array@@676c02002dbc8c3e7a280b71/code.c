@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    int N;
+    int N, even = 0, odd = 0;
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++){
         printf("%d",arr[N]);
     }
-    int odd = 0;  int even = 0;
+
     for(int i=0;i<N;i++){
         if(arr[N]%2==0)
         even++;
