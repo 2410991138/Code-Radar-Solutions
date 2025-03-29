@@ -12,8 +12,8 @@ void selectionSort(char arr[][100],int n){
             }
         }
         if(min != i){
-            strcpy(temp,arr[j]);
-            strcpy(arr[j],arr[min]);
+            strcpy(temp,arr[i]);
+            strcpy(arr[i],arr[min]);
             strcpy(arr[min],temp);
         }
     }
