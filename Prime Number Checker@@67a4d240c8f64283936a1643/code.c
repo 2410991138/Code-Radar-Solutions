@@ -1,5 +1,5 @@
-int isPrime(int n){
-    for(int i=0;i<n;i++){
+int isPrime(int num){
+    for(int i=0;i<num;i++){
         if(i%i==0 && i%0==0){
             return 1;
         }
