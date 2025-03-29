@@ -3,7 +3,7 @@ void insertionSort(char arr[],int n){
     int i,j;
     char temp;
 
-    for(int i=1;i<n-1;i++){
+    for(int i=1;i<n;i++){
         temp = i;
         j=j-1;
     
