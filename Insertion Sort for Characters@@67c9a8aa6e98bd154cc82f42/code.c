@@ -10,11 +10,12 @@ void insertionSort(char arr[],int n){
         j--;
     }
 }
+}
 void printArray(char arr[],int n){
     for(int i=0;i<n;i++){
         printf("%c ",arr[i]);
     }
-}
-    return;
 
+    return;
 }
+
