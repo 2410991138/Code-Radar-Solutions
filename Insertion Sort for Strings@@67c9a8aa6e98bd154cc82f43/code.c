@@ -2,9 +2,10 @@
 #include<string.h>
 void insertionSort(char arr[],int n){
     int i,j;
-    char temp[100];
     for(int i=1;i<n;i++){
+        char temp[100];
         strcpy(temp,arr[i]);
+        j = i-1;
     }
     while(j>=0 && arr[j]>temp){
         strcpy(arr[j+1],arr[j]);
