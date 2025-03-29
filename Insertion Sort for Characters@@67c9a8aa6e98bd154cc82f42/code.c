@@ -1,7 +1,7 @@
 #include<stdio.h>
 void insertionSort(char arr[],int n){
     int i,j,temp;
-    for(int i=1;i<n;i++){
+    for(int i=1;i<n-1;i++){
         temp = i;
         j=j-1;
     
