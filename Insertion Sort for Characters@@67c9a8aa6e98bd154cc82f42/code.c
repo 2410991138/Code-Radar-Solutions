@@ -4,7 +4,7 @@ void insertionSort(char arr[],int n){
     char temp;
 
     for(int i=1;i<n;i++){
-        temp = i;
+        temp = arr[i];
         j=j-1;
     
     while(j>=0 && arr[j] > temp){
