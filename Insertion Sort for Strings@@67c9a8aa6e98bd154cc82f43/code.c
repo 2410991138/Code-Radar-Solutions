@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 void insertionSort(char arr[],int n){
-    int i,j;
     for(int i=1;i<n;i++){
         char temp[100];
         strcpy(temp,arr[i]);
