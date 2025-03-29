@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 void insertionSort(char arr[][100],int n){
-   for(int i=1;i<n;i++){
-   int i,j;
-   char temp[100];
+    for(int i=1;i<n;i++){
+       int i,j;
+       char temp[100];
         strcpy(temp,arr[i]);
         j = i-1;
     
