@@ -11,6 +11,7 @@ void insertionSort(char arr[],int n){
         arr[j+1] = arr[j];
         j--;
     }
+    arr[j+1] = temp;
 }
 }
 void printArray(char arr[],int n){
