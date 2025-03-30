@@ -13,5 +13,5 @@ while(i<n && k>0){
 while(k--){
     num++;
 }
-return n-1;
+return num-1;
 }
