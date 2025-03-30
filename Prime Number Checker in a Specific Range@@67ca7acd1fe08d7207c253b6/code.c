@@ -9,6 +9,7 @@ int isPrime(int n){
             return 1;
     }
     }
+}
 void printPrimesInRange(int a,int b){
     int foundPrime=0;
     for(int i=a;i<=b;i++){
