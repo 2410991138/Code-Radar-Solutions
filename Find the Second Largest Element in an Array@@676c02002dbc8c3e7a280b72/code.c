@@ -19,7 +19,7 @@ int main(){
                 arr[j+1] = temp;
             }
         }
-        if()
+        
     }
     printf("%d",arr[n-2]);
     return 0;
