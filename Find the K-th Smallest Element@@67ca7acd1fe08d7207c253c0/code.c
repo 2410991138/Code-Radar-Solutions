@@ -1,5 +1,6 @@
 #include<stdio.h>
 int kthSmallest(int arr[],int n,int k){
+    int temp;
     if(k<1||k>n){
         return -1;
     }
