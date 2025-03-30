@@ -2,7 +2,7 @@
 int main(){
     int n,seclar;
     scanf("%d",&n);
-    if(n<2 || seclar = -1){
+    if(n<2 || seclar == -1){
         printf("-1");
         return 0;
     }
