@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(n<2){
+    if(n<=3){
         printf("-1");
         return 0;
     }
@@ -21,20 +21,21 @@ int main(){
         }
         
     }
-  int lar = arr[n-1];
-  int seclar = -1;
+//   int lar = arr[n-1];
+//   int seclar = -1;
 
-  for(int i=n-2;i>=0;i--){
-    if(arr[i] != lar){
-        seclar = arr[i];
-        break;
-    }
-  }
-  if(seclar == -1){
-    printf("-1");
-  }
-  else{
-    printf("%d",seclar);
-  }
+//   for(int i=n-2;i>=0;i--){
+//     if(arr[i] != lar){
+//         seclar = arr[i];
+//         break;
+//     }
+//   }
+//   if(seclar == -1){
+//     printf("-1");
+//   }
+//   else{
+//     printf("%d",seclar);
+//   }
+printf("%d",arr[n-2]);
   return 0;
 }
