@@ -6,7 +6,7 @@ int main(){
         printf("-1");
         return 0;
     }
-    int arr[];
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
