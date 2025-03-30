@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int n;
+    int n,seclar;
     scanf("%d",&n);
-    if(n<2){
+    if(n<2 || seclar = -1){
         printf("-1");
         return 0;
     }
@@ -19,6 +19,7 @@ int main(){
                 arr[j+1] = temp;
             }
         }
+        if()
     }
     printf("%d",arr[n-2]);
     return 0;
