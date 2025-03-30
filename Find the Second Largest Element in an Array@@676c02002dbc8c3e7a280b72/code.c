@@ -20,5 +20,6 @@ int main(){
             }
         }
     }
-    return arr[n-2];
+    printf("%d",arr[n-2]);
+    return 0;
 }
