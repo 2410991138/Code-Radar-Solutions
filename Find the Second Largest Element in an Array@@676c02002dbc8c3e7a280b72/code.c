@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int n,seclar;
+    int n;
     scanf("%d",&n);
-    if(n<2 || seclar == -1){
+    if(n<2){
         printf("-1");
         return 0;
     }
