@@ -21,6 +21,20 @@ int main(){
         }
         
     }
-    printf("%d",arr[n-2]);
-    return 0;
+  int lar = arr[n-1];
+  int seclar = -1;
+
+  for(int i=n-2;i>=0;i--){
+    if(arr[i] != lar){
+        seclar = arr[i];
+        break;
+    }
+  }
+  if(seclar == -1){
+    printf("-1");
+  }
+  else{
+    printf("%d",seclar);
+  }
+  return 0;
 }
