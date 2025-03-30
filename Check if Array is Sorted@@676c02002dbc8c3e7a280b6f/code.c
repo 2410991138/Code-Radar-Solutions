@@ -15,10 +15,10 @@ int main(){
         }
         
     }
-    if(isSorted){
-        printf("Sorted");
-    }else{
+    if(isnotSorted){
         printf("Not Sorted");
+    }else{
+        printf("Sorted");
     }
     return 0;
 
