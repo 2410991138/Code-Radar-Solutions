@@ -20,7 +20,7 @@ int main(){
                 visit[j] = 1;
             }
         }
-    printf("%d",arr[i],count);
+    printf("%d\n",arr[i],count);
 }
     return 0;
 }
