@@ -13,7 +13,7 @@ int main(){
         continue;
 
         int count = 1;
-        for(int j=0;j<N;j++){
+        for(int j=i+1;j<N;j++){
             if(arr[i] == arr[j]){
                 count++;
                 visit[j] = 1;
