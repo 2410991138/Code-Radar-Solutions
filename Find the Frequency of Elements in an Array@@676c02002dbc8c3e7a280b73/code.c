@@ -8,7 +8,6 @@ int main(){
         scanf("%d",&arr[i]);
         visit[i] = 0;
     }
-    count = 0;
     for(int i=0;i<N;i++){
         if (visit[i] == 1)
         continue;
