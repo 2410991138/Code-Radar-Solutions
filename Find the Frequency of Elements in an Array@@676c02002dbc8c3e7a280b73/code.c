@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,count,i,visit[n];
+    int N,count,i,visit[N];
     scanf("%d",&N);
 
     int arr[N];
