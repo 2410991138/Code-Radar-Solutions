@@ -16,6 +16,6 @@ int main(){
             }
         }
     }
-    printf("%d",count);
+    printf("%d",arr[i],count);
     return 0;
 }
