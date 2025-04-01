@@ -10,7 +10,8 @@ int K;
 scanf("%d",&K);
 for(int i=0;i<N;i++){
     temp[(i+K)%2] = arr[i];
+    printf("%d",arr[i]);
 }
-printf("%d",arr[i]);
+
 return 0;
 }
