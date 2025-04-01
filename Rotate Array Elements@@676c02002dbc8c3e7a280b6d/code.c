@@ -8,7 +8,7 @@ for(int i=0;i<N;i++){
 }
 int K;
 scanf("%d",&K);
-for(int i=0;<N;i++){
+for(int i=0;i<N;i++){
     temp[(i+k)%2] = arr[i];
 }
 printf("%d",arr[i]);
