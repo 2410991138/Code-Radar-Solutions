@@ -10,11 +10,11 @@ int K;
 scanf("%d",&K);
 
 for(int j=1;j<K;j++){
-    temp = a[0];
+    temp = arr[0];
     for(int i=0;i<N-1;i++){
-        a[i] = a[i+1];
+        arr[i] = arr[i+1];
     }
-    a[i] = temp;
+    arr[i] = temp;
 }
 printf("%d",arr[i]);
 return 0;
