@@ -8,10 +8,13 @@ int main(){
     }
 
     int isnotSorted = 0;
+    // int sorted = 0;
     for(int i=1;i<N;i++){
         if(arr[i]<arr[i+1]){
             isnotSorted = 0;
-            break;
+        }
+        else{
+            isnotSorted++;
         }
         
     }
