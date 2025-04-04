@@ -25,7 +25,7 @@ for(int i=0,j=N-1; i<j; i++,j--){
     arr[i]=arr[j];
     arr[j]=temp;
 }
-for(int i=0; j=N-1; i++){
+for(int i=0; j=N; i++){
     printf("%d",arr[i]);
 }
 return 0;
