@@ -13,14 +13,14 @@ int main(){
         if(arr[i]<arr[i+1]){
             isnotSorted = 0;
         }
-
+    }
     if(isnotSorted){
         printf("Not Sorted");
     }
     else{
         printf("Sorted");
     }
-    }
+
     return 0;
 
 }
