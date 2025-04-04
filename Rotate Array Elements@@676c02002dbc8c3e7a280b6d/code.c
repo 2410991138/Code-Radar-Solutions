@@ -8,19 +8,25 @@ for(int i=0;i<N;i++){
 }
 int K;
 scanf("%d",&K);
-
 K=K%N;
 
-for(int j=1;j<=K;j++){
-    temp,arr[N-1];
-    for(int i=N-1;i>1;i--){
-        arr[i] = arr[i-1];
-    }
-    arr[i],temp;
+for(int i=0;j=N-K-1;i++;j--){
+    int temp=arr[i];
+    arr[i]=arr[j];
+    arr[j] =temp;
+}
+for(int i=N-K;j=N-1;i++;j--){
+    int temp = arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
+}
+for(int i=0;j=N-1;i++;j--){
+    int temp=arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
 }
 for(int i=0;i<N;i++){
-    printf("%d\n",arr[i]);
+    printf("%d",arr[i]);
 }
-
 return 0;
 }
