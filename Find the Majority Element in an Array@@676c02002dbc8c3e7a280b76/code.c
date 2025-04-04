@@ -16,12 +16,18 @@ int main(){
                 arr[j+1]=temp;
             }
         }
-        if(arr[i]=arr[i+1]){
-            printf("%d",i);
-          
-        }
-       
-    }
     
+    }
+    int cand=arr[N/2];
+
+    int count = 0;
+    for(int i=0;i<N;i++){
+        if(arr[i]==cand){
+            count++;
+        }
+    }
+    if(count>N/2){
+        printf("%d",cand);
+    }
     return 0;
 }
