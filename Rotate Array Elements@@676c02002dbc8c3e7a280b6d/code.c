@@ -17,7 +17,7 @@ for(int j=1;j<=K;j++){
     arr[i],temp;
 }
 for(int i=0;i<N;i++){
-    printf("%d",arr[i]);
+    printf("%d\n",arr[i]);
 }
 
 return 0;
