@@ -25,8 +25,9 @@ for(int i=K;i<j;i++){
 for(int i=0;i<N;i++){
     printf("%d",arr[i]);
 }
+}
 printf("\n");
 }
 return 0;
-}
+
 }
