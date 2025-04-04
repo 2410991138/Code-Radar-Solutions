@@ -14,6 +14,12 @@ for(int i=0,j=N-1;i<j;i++,j--){
     arr[i]=arr[j];
     arr[j]=temp;
 }
+
+for(int i=0,j=K-1;i<j;i++,j--){
+    int temp=arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
+}
 for(int i=K,j=N-1;i<j;i++,j--){
     int temp=arr[i];
     arr[i]=arr[j];
