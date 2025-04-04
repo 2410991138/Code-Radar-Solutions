@@ -4,7 +4,7 @@ int N,temp[N],i,j;
 scanf("%d",&N);
 int arr[N];
 for(int i=0;i<N;i++){
-    scanf("%d",&arr[N]);
+    scanf("%d",&arr[i]);
 }
 int K;
 scanf("%d",&K);
