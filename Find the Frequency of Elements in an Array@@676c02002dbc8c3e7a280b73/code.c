@@ -4,11 +4,11 @@ int main(){
     scanf("%d",&N);
 
     int arr[N];
-    for(int i=0;i<N;i++){
+    for(int i=0;i<Nq;i++){
         scanf("%d",&arr[i]);
         visit[i] = 0;
     }
-    for(int i=0;i<N;i++){
+    for(int i=0;i<N-1;i++){
         if (visit[i] == 1)
         continue;
 
@@ -18,8 +18,9 @@ int main(){
                 count++;
                 visit[j] = 1;
             }
-        }
+               }
+       }
     printf("%d %d\n",arr[i],count);
-}
+
     return 0;
 }
