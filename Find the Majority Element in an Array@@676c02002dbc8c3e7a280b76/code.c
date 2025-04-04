@@ -18,7 +18,7 @@ int main(){
         }
     
     }
-    int cand=arr[N/2];
+    int cand = arr[N/2];
 
     int count = 0;
     for(int i=0;i<N;i++){
@@ -26,7 +26,7 @@ int main(){
             count++;
         }
     }
-    if(count>N/2){
+    if(count > N/2){
         printf("%d",cand);
     }
     else{
