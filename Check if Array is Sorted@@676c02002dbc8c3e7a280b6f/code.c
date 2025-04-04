@@ -7,18 +7,18 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int isnotSorted = 1;
+    int isSorted = 1;
   
     for(int i=0;i<N-1;i++){
-        if(arr[i]<arr[i+1]){
-            isnotSorted = 0;
+        if(arr[i]>arr[i+1]){
+            isSorted = 0;
         }
     }
-    if(isnotSorted){
-        printf("Not Sorted");
+    if(isSorted){
+        printf("Sorted");
     }
     else{
-        printf("Sorted");
+        printf("Not Sorted");
     }
 
     return 0;
