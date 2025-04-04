@@ -12,11 +12,11 @@ scanf("%d",&K);
 K=K%N;
 
 for(int j=1;j<=K;j++){
-    temp,arr[0];
-    for(int i=0;i<N-1;i++){
-        arr[i] = arr[i+1];
+    temp,arr[N-1];
+    for(int i=N-1;i>1;i--){
+        arr[i] = arr[i-1];
     }
-    arr[N-1],temp;
+    arr[i],temp;
 }
 for(int i=0;i<N;i++){
     printf("%d\n",arr[i]);
