@@ -20,7 +20,7 @@ for(int i=K,j=N-1;i<j;i++,j--){
     arr[j]=temp;
 }
 for(int i=0;i<N;i++){
-    printf("%d",arr[i]);
+    printf("%d ",arr[i]);
 }
 printf("\n");
 return 0;
