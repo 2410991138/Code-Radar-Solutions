@@ -29,5 +29,8 @@ int main(){
     if(count>N/2){
         printf("%d",cand);
     }
+    else{
+        printf("-1");
+    }
     return 0;
 }
