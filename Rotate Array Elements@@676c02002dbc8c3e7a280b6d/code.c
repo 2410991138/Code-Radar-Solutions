@@ -14,7 +14,7 @@ for(int j=1;j<=K;j++){
     for(int i=0;i<N-1;i++){
         arr[i] = arr[i+1];
     }
-    arr[i],temp;
+    arr[N-1],temp;
 }
 for(int i=0;i<N;i++){
     printf("%d\n",arr[i]);
