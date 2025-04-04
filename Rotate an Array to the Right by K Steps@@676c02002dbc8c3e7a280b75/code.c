@@ -9,7 +9,7 @@ for(int i=0;i<N;i++){
 int K;
 scanf("%d",&K);
 K = K % N ;
-for(int i=0,j<N-1;i<j;i++,j--){
+for(int i=0,j=N-1;i<j;i++,j--){
     int temp=arr[i];
     arr[i]=arr[j];
     arr[j]=temp;
